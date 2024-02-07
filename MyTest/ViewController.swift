@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
     private lazy var yesButton: CustomButton = {
         let yesButton = CustomButton()
         yesButton.setTitle("Да", for: .normal)
